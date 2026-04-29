@@ -241,6 +241,8 @@
       <li role="presentation"><a href="#tab-3" role="tab" data-toggle="tab"><i class="fa fa-code"></i></a></li>
       <li role="presentation"><a href="#tab-4" role="tab" data-toggle="tab"><i class="fa fa-th-large"></i></a></li>
       <li role="presentation"><a href="#tab-5" role="tab" data-toggle="tab"><i class="fa fa-file-image-o"></i></a></li>
+      <li role="presentation"><a href="#tab-6" role="tab" data-toggle="tab"><i class="fa fa-shield"></i></a></li>
+      <li role="presentation"><a href="#tab-7" role="tab" data-toggle="tab"><i class="fa fa-server"></i></a></li>
     </ul>
     <div class="tab-content">
       <div role="tabpanel" class="tab-pane fade in active feat-sec" id="tab-1">
@@ -296,6 +298,28 @@
           <p class="feat-sec-1">The Arduino-based Smart Home System features real-time monitoring and control of home appliances, offering a seamless user experience. It combines hardware and software to ensure efficient interaction between devices. With real-time alerts and notifications, users can stay informed about their home’s status, such as whether doors are locked or if security systems are active. The system also emphasizes energy-saving measures by automating energy-intensive devices based on usage patterns. Through this project, I gained valuable hands-on experience in electronics, IoT, and programming, further honing my skills in embedded systems and smart technologies.</p>
         </div>
         <div class="col-md-6 tab-img"><img src="images/Features/05.jpg" class="img-responsive" alt=""></div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-6">
+        <div class="col-md-6 tab">
+          <h5>Real-Time SOC Lab with Wazuh SIEM</h5>
+          <div class="line"></div>
+          <div class="clearfix"></div>
+          <p class="feat-sec">This project focuses on designing and implementing a practical Security Operations Center (SOC) lab using Wazuh as a centralized SIEM solution. The primary objective was to monitor, collect, and analyze security logs from a Windows endpoint in real time. The system was configured to detect authentication failures, privilege escalation attempts, and suspicious account activities. By integrating a Wazuh agent with a Windows 10 machine, I enabled continuous log forwarding to the Wazuh manager, where events were processed, categorized, and visualized through an interactive dashboard. This setup provided clear visibility into system-level activities and helped simulate how real-world SOC environments operate.<br>
+          </p>
+          <p class="feat-sec-1">During the implementation, I encountered several challenges related to agent connectivity, log filtering, and event visibility. These issues were resolved by troubleshooting network configurations, adjusting agent settings, and refining log collection rules within the Wazuh configuration files. Through this process, I gained hands-on experience in SIEM architecture, log management, and security event analysis. This project strengthened my ability to interpret security alerts, understand attack patterns, and work with real-time monitoring tools, ultimately enhancing my practical knowledge in blue team operations and SOC workflows.</p>
+        </div>
+        <div class="col-md-6 tab-img"><img src="images/Features/06.jpg" class="img-responsive" alt=""></div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-7">
+        <div class="col-md-6 tab">
+          <h5>Network Intrusion Detection using Suricata IDS</h5>
+          <div class="line"></div>
+          <div class="clearfix"></div>
+          <p class="feat-sec">This project involves the deployment and configuration of Suricata as a network-based Intrusion Detection System (IDS) to monitor and analyze live network traffic. The objective was to detect malicious activities such as network scanning, suspicious connections, and abnormal traffic behavior generated from a simulated attacker machine. Suricata was configured to capture network packets and generate alerts based on predefined rules, which were then integrated into a SIEM platform for centralized analysis. By performing controlled attacks using tools like Nmap, I was able to validate the detection capabilities of the IDS and observe how threats are identified in real time within a monitored environment.<br>
+          </p>
+          <p class="feat-sec-1">One of the key challenges in this project was handling the complexity of Suricata’s log output, particularly the large JSON-based eve.json file. Initially, excessive log data caused parsing issues within the SIEM, which was resolved by optimizing the configuration to capture only relevant alert events. Additionally, I addressed issues related to network interface selection, traffic visibility, and rule management to ensure accurate detection. This project provided valuable experience in network security monitoring, IDS tuning, and traffic analysis, while also improving my problem-solving skills in integrating multiple security tools into a functional detection pipeline.</p>
+        </div>
+        <div class="col-md-6 tab-img"><img src="images/Features/07.jpg" class="img-responsive" alt=""></div>
       </div>
     </div>
   </div>
